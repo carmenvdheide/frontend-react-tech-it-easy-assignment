@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.outer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-container {
+    max-width: 55rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/************ SALES OVERVIEW*/
+
+.allTiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.numberOfProductsTile {
+    /*border: 1px dashed pink;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    flex-basis: 250px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.numberOfProductsDescription {
+    text-align: center;
+    font-size: 18px;
+}
+
+.numberOfProducts {
+    font-size: 20px;
+}
+
+.numberSold {
+    border: 2px solid rgba(141, 171, 127, 1);
+    color: rgba(141, 171, 127, 1);
+    background-color: rgba(141, 171, 127, 0.1);
+}
+
+.numberPurchased {
+    border: 2px solid rgba(82, 153, 211, 1);
+    color: rgba(82, 153, 211, 1);
+    background-color: rgba(82, 153, 211, 0.1);
+}
+
+.numberToBeSold {
+    border: 2px solid rgba(144, 50, 61, 1);
+    color: rgba(144, 50, 61, 1);
+    background-color: rgba(144, 50, 61, 0.1);
+}
+
+/***************** BEST SELLING TV*/
+
+.bestSellingTv {
+    border: 2px dotted grey;
+    border-radius: 30px;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.imgBestSellingTv {
+    flex-basis: 30%;
+    flex-grow: 0;
+}
+
+.imgBestSellingTv img {
+    width: 100%;
+}
+
+.informationBestSellingTv {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+}
+
+.nameBestSellingTv {
+    font-size: 20px;
+}
+
+.priceBestSellingTv {
+    font-size: 30px;
+}
+
+
+.icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icons img {
+    width: 15px;
+    height: 15px;
+}
+
+.buttons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+button {
+    padding: 0.2rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+/************************ ALL TVS*/
+
+.tv-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+ }
+
+.all-tv-container {
+    border: 2px dotted grey;
+    border-radius: 30px;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+.img-tv {
+    flex-basis: 30%;
+    flex-grow: 0;
+}
+
+.img-tv img {
+    width: 100%;
+}
+
+.information-tv {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+}
+
+.name-tv {
+    font-size: 20px;
+}
+
+.price-tv {
+    font-size: 30px;
+}
+
+.option-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.option-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.option-name {
+    list-style-type: none;
+}
+
+
+
+
